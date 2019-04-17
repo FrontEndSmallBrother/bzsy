@@ -1,0 +1,225 @@
+@import url("common.css");
+
+/* 学生信息 */
+.student-info{
+    position: relative;
+    height: 800px;
+    background: url(../images/student/student-bg.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+/* 广告区 */
+.banner{
+    position: absolute;
+    left: 50%;
+    margin-left: -380px;
+    top:310px;
+    width:800px;
+}
+.banner h2{
+    text-align: center;
+    color: #fff;
+    font:bold 40px "KaiTi";
+}
+
+.banner p{
+    text-align: center;
+    color: #fff;
+    font:normal 16px/30px "微软雅黑";
+    padding: 20px 0px;
+}
+
+/* 搜索 */
+.search{
+    width:600px;
+    height: 38px;
+    padding: 5px 5px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.search-text{
+    width:494px;
+    height: 38px;
+    text-indent: 1em;
+    border:none;
+}
+
+.search-btn{
+    width:100px;
+    height: 38px;
+    background: #3384bd;
+    color: #fff;
+    border:none;
+    cursor: pointer;
+}
+
+
+
+.banner h3{
+    color: #fff;
+    text-align: center;
+    font:normal 18px "微软雅黑";
+    padding: 20px 0px;
+}
+
+.tag{
+    width:300px;
+    margin:0 auto;
+}
+
+.tag a{
+    display: block;
+    color: #fff;
+    border:1px solid #fff;
+    padding:2px 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    margin: 5px 5px;
+    float: left;
+}
+
+/* 多彩照片墙 */
+.student-about{
+    padding: 60px 0px;
+}
+
+.student-about img{
+    width:445px;
+    height: 465px;
+    float: left;
+}
+
+.about{
+    float: right;
+    width:570px;
+}
+
+.about h2,.system h2{
+    font:bold 46px "KaiTi";
+    margin-top: 80px;
+}
+
+.about p,.system p{
+    font:normal 12px/25px "微软雅黑";
+    text-indent: 2em;
+    padding: 30px 0px 60px 0px;
+    color: #777777;
+}
+
+.about a,.system a{
+    display: block;
+    width:100px;
+    line-height: 35px;
+    color: #fff;
+    background: #3384bd;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+
+/* 学识体系 */
+.student-system{
+    background: #f1f9ff;
+    padding: 50px 0;
+}
+
+
+.system{
+    float: left !important;
+    width:570px;
+}
+
+.system a{
+    float: right !important;
+}
+
+/* 体系科目 */
+.kemu{
+    background: #fff;
+    padding: 40px;
+    float: right;
+    width:390px;
+}
+
+.kemu li{
+    float: left;
+    margin-top: 10px;
+}
+
+.kemu li:nth-of-type(2n){
+    margin-left: 10px;
+}
+
+.kemu a{
+    display: block;
+    width:190px;
+    line-height: 60px;
+    text-align: center;
+    color: #777777;
+    font-size: 14px;
+    background: #f7fafc;
+    transition: all .2s;
+}
+
+.kemu a:hover{
+    background: #36b0c4;
+    color: #fff;
+}
+
+/* 课程设计 */
+.class-plan{
+    padding: 60px 0px;
+}
+
+.class-plan h2{
+    font:bold 30px "KaiTi";
+    text-align: center;
+}
+
+.class-plan .center > p{
+    font:normal 13px/25px "微软雅黑";
+    text-align: center;
+    width:500px;
+    margin: 20px auto;
+}
+
+.plan-list li{
+    width:282px;
+    height: 194px;
+    float: left;
+    background: #f1f9ff;
+    padding:40px 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #222;
+}
+
+.plan-list li img{
+    width:50px;
+    height: 50px;
+}
+
+.plan-list li:nth-of-type(2),.plan-list li:nth-of-type(5){
+    margin: 0px 25px;
+    margin-top: 20px;
+}
+
+.plan-list li:hover{
+    background: #fff;
+    box-shadow: 0 0 10px #ccc;
+    transition: all .4s;
+}
+
+.plan-list li h4{
+    font-size: 15px;
+    margin: 30px 0px 5px 0px;
+}
+
+.plan-list li p{
+    font-size: 13px;
+    line-height: 25px;
+    color: #777777;
+}

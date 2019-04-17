@@ -1,0 +1,78 @@
+@import url("common.css");
+
+/* 学校照片 */
+.school-photo{
+    position: relative;
+    width:100%;
+    height: 500px;
+    background: url(../images/school/school.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.school-photo .info{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin: -45px 0px 0px -205px;
+    text-align: center;
+    color: #FFF;
+}
+
+.school-photo h2{
+    font:bold 40px "KaiTi";
+    padding: 10px 0px;
+}
+
+.school-photo p{
+    font:bold 20px "KaiTi";
+}
+
+/* 介绍信息 */
+.school-info{
+    margin-top: 20px;
+}
+
+.school-info h3{
+    color: #2e81d8;
+    font:normal 20px "微软雅黑";
+    padding: 10px 0px;
+}
+
+.school-address{
+    width:100%;
+}
+
+.school-info p{
+    font-size: 14px;
+    line-height: 28px;
+    text-indent: 2em;
+    text-align: justify;
+}
+
+.school-info p img{
+    width:23%;
+    float: left;
+    cursor: pointer;
+    margin: 10px auto;
+    border-radius: 3px;
+    transition: all .8s;
+}
+
+.school-info p img:not(:nth-of-type(1)){
+    margin-left: 20px;
+}
+
+.school-info p img:hover{
+    transform: scale(1.2);
+    border-radius: 3px;
+}
+
+.school-info p a{
+    color: #cf3c3c;
+    font-size: 20px;
+}
+
+.school-info p em{
+    font-weight: bold;
+    color: #2e81d8;
+}

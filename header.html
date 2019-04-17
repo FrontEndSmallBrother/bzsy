@@ -1,0 +1,43 @@
+<!-- 伸缩广告位 -->
+<div class="link-banner">
+    <a href="javascript:;" title="IT精英班就业火速开启">
+        <span class="close-banner">×</span>
+    </a>
+</div>
+<!-- 页面主导航 -->
+<header class="header">
+    <nav class="nav center clearfix">
+        <h1><a href="index.html">霸州市职业技术学校</a></h1>
+        <ul class="main-list clearfix">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="school.html">学校概况</a></li>
+            <li><a href="student.html">学生园地</a></li>
+            <li>
+                <a href="">教学教研</a>
+                <ul class="sub-list">
+                    <li><a href="">德育动态</a></li>
+                    <li><a href="">成人教育</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">招生就业</a>
+                <ul class="sub-list">
+                    <li><a href="">招生办公</a></li>
+                    <li><a href="">就业指导</a></li>
+                </ul>
+            </li>
+            <li><a href="">联系我们</a></li>
+            <li><a href="">IT精英</a></li>
+        </ul>
+    </nav>
+</header>
+<script src="scripts/jquery-3.3.1.min.js"></script>
+<script>
+    //伸缩广告关闭事件
+    $(".close-banner").click(function(event){
+        event.stopPropagation();
+        $(".link-banner").slideUp(2000);
+        console.log("按钮被点击了");
+    })
+</script>
+
